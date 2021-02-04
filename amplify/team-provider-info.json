@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-incognitoapp-dev-83417-authRole",
+      "UnauthRoleArn": "arn:aws:iam::991712646320:role/amplify-incognitoapp-dev-83417-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::991712646320:role/amplify-incognitoapp-dev-83417-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-incognitoapp-dev-83417-deployment",
+      "UnauthRoleName": "amplify-incognitoapp-dev-83417-unauthRole",
+      "StackName": "amplify-incognitoapp-dev-83417",
+      "StackId": "arn:aws:cloudformation:us-east-1:991712646320:stack/amplify-incognitoapp-dev-83417/b04423b0-66ed-11eb-a793-0ac97ebd7097",
+      "AmplifyAppId": "d2f3sgluwecp21"
+    }
+  }
+}
