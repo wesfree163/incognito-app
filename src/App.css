@@ -3,58 +3,58 @@
   font-family: sans-serif;
 }
 
-.editor {
-  background-color: #f4f4f4;
-  margin-top: 72vh;
-  border-radius: .2em;
-  font-size: 14px;
+.AmplifySignOut {
+  position: absolute;
+  right: 30px;
+  bottom: 15px;
+  outline: none;
+  resize: 80%;
 }
 
-.textEdit {
-  border-radius: .2em;
+.search{
+  position: absolute;
+  margin-left: 420px;
+  top: 18px;
+  outline: none;
+}
+
+.bar {
+  position: absolute;
+  top: 9px;
+  left: 90px;
+}
+
+.user{
   position: relative;
-  height: 120px;
-  width: 90vw;
-  color: black;
-  background-color: white;
-  text-align: left;
+  margin-left: 279px;
+  top: -270px;
+  outline: none;
+  height: 60px;
+  width: 60px;
+  left: 240px;
+  border-radius: 2em;
 }
 
-.input-section {
-  margin-top: -96vh;
+.logo{
+  position: relative;
+  height: 75px;
+  width: 75px;
+  right: 60px;
+  border-radius: 2em;
 }
 
 .Button {
-  position: absolute;
+  background-color: #61dafb;
+  border-color: #ffffffc4;
+  text-align: center;
+  position: relative;
+  border-radius: 1em;
+  margin-left:15px;
+  outline: none;
   height: 39px;
-  width: 45px;
-  margin-top: -90vh;
-  margin-right: -45vh;
-}
-
-.ui-focus-input {
-  position: absolute;
-  margin-left: -45vh;
-}
-
-.zip-form {
-  margin-right: -66%;
-}
-
-.signout {
-  position: absolute;
-  margin-right: -70%;
-  margin-top: -90%;
-  resize: 80%;
-}
-/* change percentages to vw vh when necessary */
-.List {
-  position: absolute;
-  margin-top: 9vh;
-  margin-left: -30%;
-  width: 50%;
-  height: 90vh;
-  color: black;
+  width: 90px;
+  right: 54px;
+  top: -36px;
 }
 
 .App-logo {

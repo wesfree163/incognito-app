@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.AmplifySignOut {
+  position: absolute;
+  right: 30px;
+  top: 15px;
+  outline: none;
+  resize: 80%;
+}
+
+.bar {
+  position: absolute;
+  top: 9px;
+  left: 90px;
+}
+
+.logo{
+  position: relative;
+  height: 75px;
+  width: 75px;
+  right: 60px;
+  border-radius: 2em;
+}
+
+.Button {
+  background-color: #61dafb;
+  border-color: #ffffffc4;
+  text-align: center;
+  position: relative;
+  border-radius: 1em;
+  margin-left:15px;
+  outline: none;
+  height: 39px;
+  width: 90px;
+  right: 54px;
+  top: -36px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
