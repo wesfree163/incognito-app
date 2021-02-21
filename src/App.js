@@ -1,4 +1,5 @@
 import './App.css';
+import $ from "jquery";
 import React from 'react';
 import logo from './logo.svg';
 import Amplify from 'aws-amplify';
@@ -24,19 +25,42 @@ function App() {
       }}>
         
         <h2>Incognito App</h2>
-        <div className="bar"> 
+
+        <div className="bar" style={{
+          width: '64%'
+        }}> 
           <img src={ilogo} className="logo" alt="inc-logo"/>
-          <Button className="Button">Home</Button>
-          <Button className="Button">Hierarchy</Button>
-          <Button className="Button">Add Field</Button>  
+          <Button className="navButton">Home</Button>
+          <Button className="navButton">Hierarchy</Button>
+          <Button className="navButton">Add Field</Button>  
+
+          {/* <div className="navButton search">
+            <SearchField className style={{}}/>
+          </div> */}
+
+          <div className="select">
+            ---
+            <button className="sort">▼</button>
+          </div>
+
+          <img src={userI} className="user" alt="user-logo"/> 
         </div>
 
-        <div className="search">
+        <div className="ContainerA">
+          {/* <Button className=""></Button>  */}
+          <h4>Region</h4>
+        </div>
+
+        <div className="ContainerB">
+          {/* <Button className=""></Button>  */}
+          <button className="Add">Add Field</button>
+        </div>
+
+        {/* <div className="navButton search">
           <SearchField className style={{}}/>
-        </div>
-
-        <img src={userI} className="user" alt="inc-logo"/>
-
+        </div> */}
+        
+        <Button className="submit">Submit</Button> 
         <AmplifySignOut className="AmplifySignOut"/>  
       </header>
     </div>
