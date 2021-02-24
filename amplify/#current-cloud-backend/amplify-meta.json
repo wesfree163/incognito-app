@@ -1,0 +1,63 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-appincognito-dev-173132-authRole",
+      "UnauthRoleArn": "arn:aws:iam::991712646320:role/amplify-appincognito-dev-173132-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::991712646320:role/amplify-appincognito-dev-173132-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-appincognito-dev-173132-deployment",
+      "UnauthRoleName": "amplify-appincognito-dev-173132-unauthRole",
+      "StackName": "amplify-appincognito-dev-173132",
+      "StackId": "arn:aws:cloudformation:us-east-1:991712646320:stack/amplify-appincognito-dev-173132/e3bde580-7626-11eb-8156-0ab4742ddfab",
+      "AmplifyAppId": "d1tymr2pftdfq"
+    }
+  },
+  "auth": {
+    "appincognito3178a32d": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-appincognito-dev-173132-deployment/amplify-cfn-templates/auth/appincognito3178a32d-cloudformation-template.yml",
+        "logicalId": "authappincognito3178a32d"
+      },
+      "lastPushTimeStamp": "2021-02-23T23:07:42.784Z",
+      "output": {
+        "AppClientSecret": "118oestdkir4k6mk88l5cdv8a9t5d3ntq4eth53n051kvfsgv38p",
+        "UserPoolId": "us-east-1_wfmyd7ZRn",
+        "AppClientIDWeb": "631d005a24b7e06ul5t2v2jpd4",
+        "AppClientID": "l7cu22u92s77lsj6v86jv40na",
+        "IdentityPoolId": "us-east-1:b678f8ba-0d71-4c5b-93fa-ecf0d035caa6",
+        "IdentityPoolName": "appincognito3178a32d_identitypool_3178a32d__dev",
+        "UserPoolName": "appincognito3178a32d_userpool_3178a32d"
+      },
+      "lastPushDirHash": "vPofA01m9ti1/bxDun+c6UxTdO8="
+    },
+    "userPoolGroups": {
+      "service": "Cognito-UserPool-Groups",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "auth",
+          "resourceName": "appincognito3178a32d",
+          "attributes": [
+            "UserPoolId",
+            "AppClientIDWeb",
+            "AppClientID",
+            "IdentityPoolId"
+          ]
+        }
+      ],
+      "lastPushTimeStamp": "2021-02-23T23:07:42.805Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-appincognito-dev-173132-deployment/amplify-cfn-templates/auth/template.json",
+        "logicalId": "authuserPoolGroups"
+      },
+      "output": {
+        "amplifyIncognitoGroupGroupRole": "arn:aws:iam::991712646320:role/us-east-1_wfmyd7ZRn-amplifyIncognitoGroupGroupRole"
+      },
+      "lastPushDirHash": "re5GBemvUvo8tAabW6E/YXDkvOs="
+    }
+  }
+}
