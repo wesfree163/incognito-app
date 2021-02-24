@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "amplifyreactapp6fbc5fce_identitypool_6fbc5fce",
+    "identityPoolName": "appincognito3178a32d_identitypool_3178a32d",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "amplif6fbc5fce",
-    "userPoolName": "amplifyreactapp6fbc5fce_userpool_6fbc5fce",
+    "resourceNameTruncated": "appinc3178a32d",
+    "userPoolName": "appincognito3178a32d_userpool_3178a32d",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -28,10 +28,10 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "amplif6fbc5fce_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "appinc3178a32d_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "6fbc5fce",
-    "resourceName": "amplifyreactapp6fbc5fce",
+    "sharedId": "3178a32d",
+    "resourceName": "appincognito3178a32d",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [
@@ -46,9 +46,6 @@
         ]
     },
     "useDefault": "default",
-    "usernameAttributes": [
-        "email"
-    ],
     "userPoolGroupList": [],
     "serviceName": "Cognito",
     "usernameCaseSensitive": false,
